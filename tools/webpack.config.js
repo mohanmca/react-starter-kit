@@ -46,6 +46,11 @@ const config = {
   module: {
     loaders: [
       {
+        test: /\.ts(x?)$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader?presets[]=es2015!ts-loader'
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         include: [
@@ -125,7 +130,7 @@ const config = {
   resolve: {
     root: path.resolve(__dirname, '../src'),
     modulesDirectories: ['node_modules'],
-    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx', '.json'],
+    extensions: ['', '.webpack.js', '.web.js','.ts','.tsx', '.js', '.jsx', '.json'],
   },
 
   cache: DEBUG,

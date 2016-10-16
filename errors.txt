@@ -1,0 +1,30 @@
+
+> @ start C:\Users\mohan\git\react-starter-kit
+> babel-node tools/run start
+
+[13:32:20] Starting 'start'...
+[13:32:20] Starting 'clean'...
+[13:32:20] Finished 'clean' after 159 ms
+[13:32:20] Starting 'bound copy'...
+[13:32:20] Finished 'bound copy' after 139 ms
+webpack built a4b289bccdf97045187c in 10517ms
+Child
+    Time: [1m10517[22mms
+    
+    [1m[31mERROR in ./src/routes/hello/Hello.tsx
+    (13,28): error TS2307: Cannot find module 'isomorphic-style-loader/lib/withStyles'.[39m[22m
+    
+    [1m[31mERROR in ./src/routes/hello/Hello.tsx
+    (15,20): error TS2307: Cannot find module './Hello.css'.[39m[22m
+Child
+    Time: [1m10800[22mms
+            [1mAsset[22m    [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+        [1m[32mserver.js[39m[22m  219 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+    [1m[32mserver.js.map[39m[22m  243 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+    
+    [1m[31mERROR in ./src/routes/hello/Hello.tsx
+    (13,28): error TS2307: Cannot find module 'isomorphic-style-loader/lib/withStyles'.[39m[22m
+    
+    [1m[31mERROR in ./src/routes/hello/Hello.tsx
+    (15,20): error TS2307: Cannot find module './Hello.css'.[39m[22m
+webpack: bundle is now VALID.
