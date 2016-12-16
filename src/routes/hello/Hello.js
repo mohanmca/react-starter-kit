@@ -8,16 +8,10 @@
  */
 
 
-import * as React from "react";
-import { PropTypes } from "react";
-import { withStyles } from 'isomorphic-style-loader/lib/withStyles';
-import * as Layout from '../../components/Layout';
-import * as s from './Hello.css';
-
-
-interface IHello {
-  title:string;
-}
+import React, { PropTypes } from 'react';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import Layout from '../../components/Layout';
+import s from './Hello.css';
 
 function Hello({ title } : IHello) {
   return (
