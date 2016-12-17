@@ -1,8 +1,0 @@
-{
-  "resolution": "main",
-  "tree": {
-    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/aba1694d0c591ff49e81115a46e2479d89a9ea84/universal-router/universal-router.d.ts",
-    "raw": "registry:dt/universal-router#0.0.0+20160824160606",
-    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/aba1694d0c591ff49e81115a46e2479d89a9ea84/universal-router/universal-router.d.ts"
-  }
-}
