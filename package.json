@@ -5,14 +5,8 @@
     "npm": ">=3.10"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@types/es6-promise": "0.0.32",
-    "babel-polyfill": "6.13.0",
-    "babel-runtime": "6.11.6",
-=======
     "babel-polyfill": "6.16.0",
     "babel-runtime": "6.18.0",
->>>>>>> upstream/master
     "bluebird": "3.4.6",
     "body-parser": "1.15.2",
     "classnames": "2.2.5",
@@ -44,27 +38,12 @@
     "whatwg-fetch": "2.0.1"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@types/es6-promise": "0.0.32",
-    "@types/express-serve-static-core": "^4.0.37",
-    "@types/lodash": "^4.14.37",
-    "@types/node": "^6.0.45",
-    "@types/serve-static": "^1.7.31",
-    "assets-webpack-plugin": "^3.4.0",
-    "autoprefixer": "^6.4.1",
-    "babel-cli": "^6.14.0",
-    "babel-core": "^6.14.0",
-    "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.2.5",
-    "babel-plugin-react-transform": "^2.0.2",
-=======
     "assets-webpack-plugin": "^3.5.0",
     "autoprefixer": "^6.5.3",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.8",
->>>>>>> upstream/master
     "babel-plugin-rewire": "^1.0.0",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-latest": "^6.16.0",
@@ -111,16 +90,6 @@
     "postcss-selector-not": "^2.0.0",
     "postcss-url": "^5.1.2",
     "raw-loader": "^0.5.1",
-<<<<<<< HEAD
-    "react-addons-test-utils": "15.3.2",
-    "react-transform-catch-errors": "^1.0.2",
-    "react-transform-hmr": "^1.0.4",
-    "redbox-react": "^1.3.1",
-    "sinon": "^2.0.0-pre.2",
-    "stylelint": "^7.3.1",
-    "stylelint-config-standard": "^13.0.2",
-    "ts-loader": "^0.9.1",
-=======
     "react-addons-test-utils": "15.4.0",
     "react-deep-force-update": "^2.0.1",
     "react-hot-loader": "^3.0.0-beta.6",
@@ -129,7 +98,6 @@
     "sinon": "^2.0.0-pre.3",
     "stylelint": "^7.6.0",
     "stylelint-config-standard": "^15.0.0",
->>>>>>> upstream/master
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "webpack-hot-middleware": "^2.13.2",
